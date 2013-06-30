@@ -3,7 +3,9 @@
 
 autocmd!
 
-call pathogen#runtime_append_all_bundles()
+" Use pathogen for the git modules
+" https://github.com/tpope/vim-pathogen
+execute pathogen#infect()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " BASIC EDITING CONFIGURATION
